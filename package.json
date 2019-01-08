@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-web-service",
+  "version": "1.0.0",
+  "description": "Simple web service with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrstelmach/nodejs-web-service.git"
+  },
+  "author": "Piotr Stelmach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotrstelmach/nodejs-web-service/issues"
+  },
+  "homepage": "https://github.com/piotrstelmach/nodejs-web-service#readme"
+}
