@@ -16,9 +16,9 @@ var EmployeeSchema = new Schema({
       required:'Please enter date of birth'
     },
     Salary:{
-      type: Decimal
+      type: Number
     },
-    Address:{
+    Address_id:{
       type:mongoose.Schema.Types.ObjectId,
       ref: 'Addresses'
     },
