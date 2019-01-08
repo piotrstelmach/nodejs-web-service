@@ -18,6 +18,10 @@ var EmployeeSchema = new Schema({
     Salary:{
       type: Decimal
     },
+    Address:{
+      type:mongoose.Schema.Types.ObjectId,
+      ref: 'Addresses'
+    },
     Created_date:{
        type:Date,
         default:Date.now
