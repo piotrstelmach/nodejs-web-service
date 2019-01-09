@@ -3,7 +3,7 @@ Employee = mongoose.model('Employees');
 Address = mongoose.model('Addresses');
 
 exports.listAllEmployees = function (req, res) {
-    Employees.find({}).populate('Addresses').exec(function (err, employees) {
+    Employee.find().populate('Address_id').then(function (err, employees) {
         if (err) {
             res.send(err);
         }
@@ -12,7 +12,7 @@ exports.listAllEmployees = function (req, res) {
 };
 
 exports.listOneEmployee = function (req, res) {
-    Employees.findOne({}).populate('Addresses').exec(function (err, employee) {
+    Employee.findOne({}).populate('Address_id').then(function (err, employee) {
         if (err) {
             res.send(err);
         }
