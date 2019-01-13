@@ -5,15 +5,15 @@ var Schema = mongoose.Schema;
 var EmployeeSchema = new Schema({
    Name:{
        type:String,
-       required:'Enter name of employee'
+       //required:true
    },
     Last_name:{
        type:String,
-        required: 'Enter last name'
+        //required: true
     },
     Birth_date:{
       type:Date,
-      required:'Please enter date of birth'
+      //required:true
     },
     Salary:{
       type: Number

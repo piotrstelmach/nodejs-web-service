@@ -4,15 +4,15 @@ var Schema = mongoose.Schema;
 var AddressSchema = new Schema({
    Street:{
        type:String,
-       required: 'street is required'
+       //required: 'street is required'
    },
     Street_num:{
        type:Number,
-        required: 'Street number is required!'
+        //required: 'Street number is required!'
     },
     Country:{
        type:String,
-        required:'Country is required'
+        //required:'Country is required'
     }
 
 });
