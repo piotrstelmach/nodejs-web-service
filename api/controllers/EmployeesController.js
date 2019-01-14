@@ -23,9 +23,9 @@ exports.listOneEmployee = function (req, res) {
 
 exports.createNewEmployee = function (req, res) {
     let address=new Address({
-       Street: req.body.Street,
-       Street_num: req.body.Street_num,
-       Country: req.body.Country
+       Street: req.body.address.Street,
+       Street_num: req.body.address.Street_num,
+       Country: req.body.address.Country
     });
     address.save()
         .catch(err=>{
