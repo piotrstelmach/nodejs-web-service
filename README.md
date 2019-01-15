@@ -9,3 +9,8 @@ Express<br>
 Mongoose<br>
 Body-parser<br>
 Faker
+
+IMPORTANT!
+
+For test first use seeder 
+Type command: node bin/seed.js in main catalog
