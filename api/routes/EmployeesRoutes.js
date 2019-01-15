@@ -1,5 +1,5 @@
 module.exports = function (app){
-    var EmployeesController = require('../controllers/EmployeesController');
+    let EmployeesController = require('../controllers/EmployeesController');
 
 
     app.route('/employees')
